@@ -1,0 +1,34 @@
+{
+  "categories": [
+    {
+      "category": "Technology",
+      "description": "Stay updated with the latest trends and innovations in tech.",
+      "images": "./images/microchip-1.png"
+    },
+    {
+      "category": "Lifestyle",
+      "description": "Tips and tricks for a balanced and fulfilling life.",
+      "images": "./images/spa1.png"
+    },
+    {
+      "category": "Productivity",
+      "description": "Learn strategies to maximize your efficiency and achieve your goals.",
+      "images": "./images/task.png"
+    },
+    {
+      "category": "Health & Wellness",
+      "description": "Discover ways to nurture your mind and body.",
+      "images": "./images/heartbeat.webp"
+    },
+    {
+      "category": "Creativity",
+      "description": "Find inspiration and unlock your creative potential.",
+      "images": "./images/paint-palette.png"
+    },
+    {
+      "category": "Career Development",
+      "description": "Insights to grow your skills and excel professionally.",
+      "images": "./images/usericon.png"
+    }
+  ]
+}

@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="./output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="font-poppins">
+    <header
+    class="bg-slate-900 text-fuchsia-300 flex justify-between md:px-10 px-5 py-3 items-center fixed w-full z-50"
+  >
+    <div class="flex gap-5 items-center">
+      <div class="cursor-pointer sm:hidden block">
+        <i class="fas fa-bars menu-icon"></i>
+      </div>
+      <a href="./blog.html" class="logo">
+        <h1 class="md:text-3xl xs:text-2xl text-xl font-bold">
+          Code & Connect
+        </h1>
+      </a>
+    </div>
+<!-- web  -->
+    <div class="sm:flex hidden md:gap-10 gap-5">
+      <p class="cursor-pointer"><a href="./blog.html">Home</a></p>
+      <p class="cursor-pointer"><a href="#">Blog</a></p>
+      <p class="cursor-pointer"><a href="./categories.html">Categories</a></p>
+      <p class="cursor-pointer"><a href="./about.html">About</a></p>
+    </div>
+    <!-- mobile  -->
+    <div class="absolute top-14 -left-full bg-slate-900 w-full px-16 py-5 space-y-8 h-screen mobile-menu transition-all ease-in duration-300">
+      <p class="cursor-pointer"><a href="./blog.html">Home</a></p>
+      <p class="cursor-pointer"><a href="#">Blog</a></p>
+      <p class="cursor-pointer"><a href="./categories.html">Categories</a></p>
+      <p class="cursor-pointer"><a href="./about.html">About</a></p>
+    </div>
+    <div class="relative">
+      <div
+        class="profile flex items-center gap-2 border border-fuchsia-300 xxs:p-2 p-1 rounded-md cursor-pointer"
+      >
+        <div
+          class="xs:w-[2rem] w-[1.5rem] xs:h-[2rem] h-[1.5rem] rounded-[2rem]"
+        >
+          <img
+            src="./images/profile-icon.webp"
+            alt="profile-img"
+            class="w-full h-full rounded-[2rem]"
+          />
+        </div>
+        <i class="fas fa-chevron-down text-[0.5rem]"></i>
+      </div>
+      <div
+        class="dropdown-menu absolute bg-slate-900 xs:top-[4.5rem] top-[4rem] text-slate-900 p-3 right-0 sm:w-[15rem] w-[12rem] space-y-2 rounded-lg text-sm hidden"
+      >
+        <p
+          class="bg-slate-200 hover:bg-slate-400 cursor-pointer py-2 px-5 rounded-md"
+        >
+          Profile
+        </p>
+        <p
+          class="bg-slate-200 hover:bg-slate-400 cursor-pointer py-2 px-5 rounded-md"
+        >
+          Account Setting
+        </p>
+        <p
+          class="signout bg-slate-200 hover:bg-slate-400 cursor-pointer py-2 px-5 rounded-md"
+        >
+          Sign Out
+        </p>
+      </div>
+    </div>
+  </header>
+    <main class="">
+      <section
+        class="hero bg-heroBg bg-cover bg-no-repeat bg-center md:p-16 xs:p-8 p-5 xs:space-y-8 space-y-4"
+      >
+        <div class="text-fuchsia-300 sm:space-y-4 space-y-2  md:pt-10 xs:pt-20 pt-16">
+          <p class="sm:text-xl xs:text-lg text-sm">Welcome to</p>
+          <h1
+            class="sm:text-5xl xs:text-4xl text-3xl font-bold text-fuchsia-400"
+          >
+            Code & Connect
+          </h1>
+          <p class="sm:text-xl xs:text-lg text-sm">
+            We're excited to have you here!
+          </p>
+        </div>
+        <p
+          class="sm:text-xl xs:text-lg text-sm bg-slate-900 text-white inline-block sm:px-10 px-5 py-1 rounded-lg"
+        >
+          As a member of our community, you can now:
+        </p>
+        <div class="sm:space-y-4 space-y-2 text-white sm:pl-6 pl-3">
+          <div class="flex gap-5 items-center">
+            <i class="fa-regular fa-circle-check"></i>
+            <p class="xs:text-[1rem] text-[0.7rem]">
+              Like, comment, and share blog posts you find interesting.
+            </p>
+          </div>
+          <div class="flex gap-5 items-center">
+            <i class="fa-regular fa-circle-check"></i>
+            <p class="xs:text-[1rem] text-[0.7rem]">
+              Stay updated with the latest articles, trends, and insights in
+              technology and life.
+            </p>
+          </div>
+          <div class="flex gap-5 items-center">
+            <i class="fa-regular fa-circle-check"></i>
+            <p class="xs:text-[1rem] text-[0.7rem]">
+              Engage with like-minded individuals and share your thoughts on our
+              platform.
+            </p>
+          </div>
+        </div>
+        <div
+          class="social-link xs:text-xl text-lg flex xs:gap-4 gap-3 text-fuchsia-300"
+        >
+          <div
+            class="border border-fuchsia-300 h-10 w-10 flex items-center justify-center rounded-[2rem]"
+          >
+            <i class="fa-brands fa-github"></i>
+          </div>
+          <div
+            class="border border-fuchsia-300 h-10 w-10 flex items-center justify-center rounded-[2rem]"
+          >
+            <i class="fa-brands fa-linkedin-in"></i>
+          </div>
+          <div
+            class="border border-fuchsia-300 h-10 w-10 flex items-center justify-center rounded-[2rem]"
+          >
+            <i class="fa-brands fa-facebook"></i>
+          </div>
+          <div
+            class="border border-fuchsia-300 h-10 w-10 flex items-center justify-center rounded-[2rem]"
+          >
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+        </div>
+      </section>
+    </main>
+    <section class="sm:py-10 py-5">
+      <div class="space-y-3 pb-5">
+        <h1 class="sm:text-3xl text-2xl text-center font-bold">
+          Explore the Blogs
+        </h1>
+        <p class="text-center text-[1rem]">
+          Check out the latest posts and join the conversation.
+        </p>
+      </div>
+      <div
+        class="blog-post grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 lg:px-10 px-5 gap-5"
+      ></div>
+    </section>
+    <section class="py-5">
+      <div class="space-y-3 pb-5">
+        <h1 class="sm:text-3xl text-2xl text-center font-bold">
+          Here's What Our Users Are Saying
+        </h1>
+        <p class="text-center sm:text-[1rem] text-sm">
+          Real stories from our community about their experiences with our
+          platform.
+        </p>
+      </div>
+      <div
+        class="testimonial grid sm:grid-cols-2 grid-cols-1 xs:p-10 p-5 gap-5 bg-slate-600"
+      ></div>
+    </section>
+    <footer>
+      <div
+        class="grid md:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-4 shadow-fuchsia-300 lg:p-10 p-5 mt-5 bg-fuchsia-300"
+      >
+        <div class="space-y-4">
+          <h1 class="sm:text-3xl text-2xl font-bold">Code & Connect</h1>
+          <p class="text-sm">© 2024 Code & Connect. All rights reserved</p>
+          <p class="text-sm">
+            Empowering creativity, knowledge, and connection.
+          </p>
+          <div>
+            <p class="text-sm leading-[1.65rem]">
+              For business inquiries, reach us at:
+              <a
+                href="mailto:business@codeandconnect.com"
+                class="hover:underline underline-offset-4"
+                >business@codeandconnect.com</a
+              >
+            </p>
+          </div>
+        </div>
+        <div class="md:justify-items-center justify-items-start">
+          <h1 class="font-semibold sm:text-xl text-lg md:pb-5 pb-3">
+            Quick Links
+          </h1>
+          <div class="md:space-y-4 space-y-2 sm:text-[1rem] text-sm">
+            <p><a href="./blog.html">Home</a></p>
+            <p><a href="#">blog</a></p>
+            <p class="cursor-pointer">
+              <a href="./categories.html">Categories</a>
+            </p>
+            <p class="cursor-pointer"><a href="./about.html">About</a></p>
+          </div>
+        </div>
+        <div class="space-y-4">
+          <div>
+            <h1 class="font-semibold text-xl pb-5">Social Media Links</h1>
+            <p class="text-sm leading-[1.65rem]">
+              Follow us on social media to stay updated with the latest posts
+              and news.
+            </p>
+          </div>
+          <div class="icons space-x-4 text-lg">
+            <i
+              class="fa-brands fa-facebook cursor-pointer border border-slate-900 rounded-[2rem] p-2"
+            ></i>
+            <i
+              class="fa-brands fa-x-twitter cursor-pointer border border-slate-900 rounded-[2rem] p-2"
+            ></i>
+            <i
+              class="fa-brands fa-instagram cursor-pointer border border-slate-900 rounded-[2rem] p-2"
+            ></i>
+            <i
+              class="fa-brands fa-linkedin cursor-pointer border border-slate-900 rounded-[2rem] p-2"
+            ></i>
+          </div>
+        </div>
+        <div class="space-y-4">
+          <div>
+            <h1 class="font-semibold sm:text-xl text-lg sm:pb-5 pb-3">
+              Newsletter Subscription
+            </h1>
+            <p class="text-sm leading-[1.65rem]">
+              Stay informed with the latest trends and updates from Code &
+              Connect. Subscribe to our newsletter!
+            </p>
+          </div>
+          <div>
+            <form action="" class="space-y-3">
+              <input
+                type="text"
+                placeholder="Enter your email"
+                class="text-sm bg-slate-800 py-3 px-4 block rounded-lg w-full outline-none text-fuchsia-300 text-center"
+              />
+              <button
+                class="text-sm bg-slate-800 text-fuchsia-300 py-3 px-4 rounded-lg w-full"
+              >
+                Subscribe Now
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script type="module" src="./firebaseConfig.js"></script>
+    <script src="app.js"></script>
+    <script src="app2.js"></script>
+    <script src="./blogPost.js"></script>
+    <script src="./testimonial.js"></script>
+  </body>
+</html>

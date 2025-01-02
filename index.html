@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <link href="./output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="font-poppins">
+    <div
+      class="bg-signinBg grid sm:grid-cols-2 grid-cols-1 items-center h-[100vh] w-full bg-cover bg-no-repeat bg-center"
+    >
+      <div class="sm:space-y-4 space-y-2 lg:p-20 md:p-10 xxs:p-5 p-2  sm:text-left text-center">
+        <p class="text-fuchsia-300 font-semibold md:text-xl sm:text-lg text-sm  ">
+          Start Your Journey with
+        </p>
+        <h1 class="lg:text-5xl md:text-4xl text-3xl  font-bold text-fuchsia-300">Code & Connect</h1>
+        <p class=" xs:text-sm text-[0.7rem] sm:leading-7 xs:leading-6 leading-5 font-medium text-fuchsia-200">
+          Sign up today to become part of our amazing community. Access
+          personalized features, connect with others, and start exploring all we
+          have to offer.
+        </p>
+        <div class=" hidden sm:flex items-center gap-5">
+          <div
+            class="w-10 h-10 border-2 border-fuchsia-300 bg-fuchsia-300 flex items-center justify-center rounded-[3rem] cursor-pointer"
+          >
+            <i class="fa-brands fa-github text-xl"></i>
+          </div>
+          <div
+            class="w-10 h-10 border-2 border-fuchsia-300 bg-fuchsia-300 flex items-center justify-center rounded-[3rem] cursor-pointer"
+          >
+            <i class="fa-brands fa-linkedin-in text-xl"></i>
+          </div>
+          <div
+            class="w-10 h-10 border-2 border-fuchsia-300 bg-fuchsia-300 flex items-center justify-center rounded-[3rem] cursor-pointer"
+          >
+            <i class="fa-brands fa-instagram text-xl"></i>
+          </div>
+          <div
+            class="w-10 h-10 border-2 border-fuchsia-300 bg-fuchsia-300 flex items-center justify-center rounded-[3rem] cursor-pointer"
+          >
+            <i class="fa-brands fa-yahoo text-xl"></i>
+          </div>
+          <div
+            class="w-10 h-10 border-2 border-fuchsia-300 bg-fuchsia-300 flex items-center justify-center rounded-[3rem] cursor-pointer"
+          >
+            <i class="fa-brands fa-twitter text-xl"></i>
+          </div>
+        </div>
+      </div>
+      <div class="lg:p-10 xs:p-5 p-3">
+        <div id="container" class="bg-slate-950 lg:p-10 xxs:p-5 p-3 w-full rounded-lg">
+          <h1 class="md:text-3xl text-2xl text-center pb-5  font-semibold text-fuchsia-300">
+            Create Your Account
+          </h1>
+          <form class="flex flex-col md:gap-4 gap-3">
+            <div class="flex md:flex-row sm:flex-col xs:flex-row flex-col  items-center md:gap-4 gap-3 w-full">
+              <input
+                type="text"
+                name="firstname"
+                id="firstName"
+                placeholder="First Name"
+                class="text-sm border border-white  md:py-3 py-2 px-4 rounded-md w-full outline-none focus:shadow-btnshadow bg-slate-900  placeholder:text-fuchsia-200  duration-300 transition-all ease-in text-fuchsia-300"
+              />
+              <input
+                type="text"
+                name="lastname"
+                id="lastName"
+                placeholder="Last Name"
+                class="text-sm border border-white  md:py-3 py-2 px-4 rounded-md w-full outline-none focus:shadow-btnshadow bg-slate-900  placeholder:text-fuchsia-200  duration-300 transition-all ease-in text-fuchsia-300"
+              />
+            </div>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email"
+              class="text-sm border border-white  md:py-3 py-2 px-4 rounded-md w-full outline-none focus:shadow-btnshadow bg-slate-900  placeholder:text-fuchsia-200  duration-300 transition-all ease-in text-fuchsia-300"
+            />
+            <div class="relative">
+              <input
+                type="password"
+                name="password"
+                id="password"
+                placeholder="Password"
+                class="password text-sm border border-white  md:py-3 py-2 px-4 rounded-md w-full outline-none focus:shadow-btnshadow bg-slate-900  placeholder:text-fuchsia-200  duration-300 transition-all ease-in text-fuchsia-300"
+              />
+              <div class="absolute md:top-3 top-2 right-5 cursor-pointer eye-btn">
+                <i class="fa-solid fa-eye-slash text-fuchsia-300"></i>
+              </div>
+            </div>
+
+            <div class="relative">
+              <input
+                type="password"
+                name="repeatpassword"
+                id="repeatPassword"
+                placeholder="Confirm Password"
+                class="confirm-password text-sm border border-white  md:py-3 py-2 px-4 rounded-md w-full outline-none focus:shadow-btnshadow bg-slate-900  placeholder:text-fuchsia-200  duration-300 transition-all ease-in text-fuchsia-300"
+              />
+              <div
+                class="absolute md:top-3 top-2 right-5 cursor-pointer confirm-eye-btn"
+              >
+                <i class="fa-solid fa-eye-slash text-fuchsia-300"></i>
+              </div>
+            </div>
+
+            <button
+              id="signUp"
+              class="text-[1rem] font-semibold border border-white bg-fuchsia-300 placeholder:text-slate-700 md:py-3 py-2 px-4 rounded-md outline-none hover:shadow-whiteshadow transition-all ease-in duration-300"
+            >
+              Sign Up
+            </button>
+            <p class="text-white text-sm text-center">
+              Already have an account?
+              <a href="./login.html" class="hover:underline underline-offset-4">
+                Login</a
+              >
+            </p>
+            <p class="text-white text-sm  text-center">
+              By signing up, you agree to our
+              <a href="./policies/terms.html" class="underline underline-offset-4"
+                >Terms of Service</a
+              >
+              and
+              <a href="./policies/privacy.html" class="underline underline-offset-4">Privacy Policy</a
+              >.
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="./firebaseConfig.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,24 @@
+{
+  "offer": [
+    {
+      "title": "A Dynamic Blogging Platform",
+      "description": "Share your stories, insights, and expertise with a global audience.",
+      "icon": "fa-regular fa-pen-to-square" 
+    },
+    {
+      "title": "Community Engagement",
+      "description": "Like, comment, and share posts to connect with like-minded individuals.",
+      "icon": "fa-solid fa-users"
+    },
+    {
+      "title": "Diverse Categories",
+      "description": "Explore topics ranging from technology to health, productivity to creativity, and more.",
+      "icon": "fa-solid fa-tags"
+    },
+    {
+      "title": "Opportunities to Grow",
+      "description": "Learn from others, build your network, and grow personally and professionally.",
+      "icon": "fa-solid fa-rocket"
+    }
+  ]
+}

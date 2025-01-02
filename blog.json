@@ -1,0 +1,106 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Understanding State Management in React",
+      "author": "Sadaf Shahab",
+      "image": "./images/blog1.png",
+      "date": "2024-12-30",
+      "content": "State management is a critical concept in React. It allows developers to manage the data that drives UI components effectively.",
+      "likes": 150,
+      "comments": [
+        {
+          "username": "JohnDoe",
+          "comment": "Great article! Very informative."
+        },
+        {
+          "username": "JaneSmith",
+          "comment": "Thanks for the explanation. It really helped me understand the concept better."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Getting Started with Next.js",
+      "author": "Sadaf Shahab",
+      "image": "./images/blog2.png",
+      "date": "2024-12-29",
+      "content": "Next.js is a powerful React framework that allows developers to build SEO-friendly and server-side rendered applications easily.",
+      "likes": 200,
+      "comments": [
+        {
+          "username": "DevGuru",
+          "comment": "Next.js is my go-to framework. Thanks for sharing!"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Top 10 Tailwind CSS Tricks for Developers",
+      "author": "Sadaf Shahab",
+      "image": "./images/blog3.png",
+      "date": "2024-12-28",
+      "content": "Tailwind CSS is a utility-first framework that speeds up development. Here are five tricks to make your workflow faster.",
+      "likes": 175,
+      "comments": [
+        {
+          "username": "CSSWizard",
+          "comment": "Amazing tips! Tailwind CSS has been a game changer for me."
+        },
+        {
+          "username": "FrontendFanatic",
+          "comment": "Thanks for these tricks. They really save time!"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "How to Build an E-Commerce Website Using Next.js",
+      "author": "Sadaf Shahab",
+      "image": "./images/blog4.png",
+      "date": "2024-12-27",
+      "content": "E-commerce websites are at the heart of online business. Learn how to build one using Next.js and Tailwind CSS.",
+      "likes": 250,
+      "comments": [
+        {
+          "username": "ShopMaster",
+          "comment": "I’ve been wanting to build an e-commerce site. This is super helpful!"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Benefits of Headless CMS for Developers",
+      "author": "Sadaf Shahab",
+      "image": "./images/blog5.png",
+      "date": "2024-12-26",
+      "content": "Headless CMS provides flexibility and scalability, allowing developers to manage content effectively for various platforms.",
+      "likes": 130,
+      "comments": [
+        {
+          "username": "ContentCreator",
+          "comment": "Headless CMS is the future. Thanks for explaining it so well!"
+        },
+        {
+          "username": "TechieTom",
+          "comment": "Sanity CMS is my favorite. Great write-up!"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Responsive Design Tips for Beginners",
+      "author": "Sadaf Shahab",
+      "image": "./images/blog6.jpg",
+      "date": "2024-12-25",
+      "content": "Responsive design ensures your website looks great on all devices. Here are some essential tips for beginners.",
+      "likes": 190,
+      "comments": [
+        {
+          "username": "MobileFirst",
+          "comment": "Responsive design is so crucial. Thanks for the tips!"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+  <body class="font-poppins">
+    <div
+      class="block xs:grid sm:grid-cols-2 grid-cols-1 xs:items-center items-start h-[100vh] w-full lg:gap-8 sm:gap-4 gap-2 lg:px-10 px-5 sm:py-0 py-3 bg-signinBg bg-cover bg-center bg-no-repeat xs:space-y-0 space-y-10"
+    >
+      <div class="sm:order-2 order-1 space-y-2 flex flex-col justify-center items-center">
+        <div class="sm:space-y-4 xs:space-y-2 space-y-4 sm:text-left text-center">
+          <p class="text-fuchsia-300">Welcome!</p>
+          <h1 class="md:text-4xl text-3xl font-bold text-fuchsia-300 sm:block hidden">
+            Sign In to Continue
+          </h1>
+          <p class="md:text-lg text-sm text-white sm:w-full xs:w-[80%] xxs:w-[90%] w-full sm:m-0 mx-auto">
+            Enter your credentials to access your account and pick up right
+            where you left off.
+          </p>
+        </div>
+        <div class="md:w-[14rem] sm:w-[10rem] w-[8rem]  md:h-[20rem] sm:h-[16rem] h-[12rem]   rounded-full xs:block hidden">
+          <img
+            src="./images/login.webp"
+            alt="signin-img"
+            class="w-full h-full object-cover rounded-full"
+          />
+        </div>
+      </div>
+
+      <div id="container" class="sm:order-1 order-2 lg:px-10 xs:px-5 p-0 sm:py-5 py-2">
+        <h1 class="md:text-2xl text-xl font-semibold text-fuchsia-300 pb-5 text-center">
+          Sign in to Your Account
+        </h1>
+        <form class="xs:flex xs:flex-col sm:gap-5 gap-3 xs:space-y-0 space-y-4">
+          <input
+            type="email"
+            name=""
+            id="email"
+            placeholder="Email"
+            class="sm:p-4 p-3 rounded-lg w-full text-sm outline-none border border-fuchsia-300 focus:shadow-btnshadow bg-slate-800 transition-all ease-in duration-300 text-fuchsia-300"
+          />
+          <div class="relative">
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Password"
+              class="password sm:p-4 p-3 rounded-lg w-full text-sm outline-none border border-fuchsia-300 focus:shadow-btnshadow bg-slate-800 transition-all ease-in duration-300 text-fuchsia-300"
+            />
+            <div class="absolute sm:top-4 top-3 right-5 cursor-pointer eye-btn">
+              <i class="fa-solid fa-eye-slash text-gray-300"></i>
+            </div>
+          </div>
+
+          <button
+            id="signIn"
+            class="sm:p-4 p-3 rounded-lg w-full bg-slate-800 text-fuchsia-300 hover:shadow-btnshadow transition-all ease-in duration-300 border-fuchsia-300 border"
+          >
+            Sign In
+          </button>
+          <div class="xs:space-y-3 space-y-2">
+            <p class="text-white text-sm text-center">
+              Forgot your password?
+              <a href="" class="hover:underline underline-offset-4">Reset</a>
+            </p>
+            <p class="text-white text-sm text-center">
+              Don't have an account?
+              <a href="/index.html" class="hover:underline underline-offset-4"
+                >Sign Up Now</a
+              >
+            </p>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script type="module" src="./firebaseConfig.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>

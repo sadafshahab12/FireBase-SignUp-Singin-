@@ -1,0 +1,22 @@
+{
+  "callToAction": [
+    {
+      "title": "Write a Blog",
+      "tagline": "Share your expertise and insights with our vibrant community.",
+      "buttonText": "Start Writing",
+      "icon" : "fa-regular fa-pen-to-square"
+    },
+    {
+      "title": "Sign Up for Newsletter",
+      "tagline": "Stay informed with the latest trends and updates delivered to your inbox.",
+      "buttonText": "Subscribe Now",
+            "icon" : "fa-solid fa-envelope-circle-check"
+    },
+    {
+      "title": "Connect with Us",
+      "tagline": "Engage with like-minded individuals and build meaningful connections.",
+      "buttonText": "Get Connected",
+            "icon" :"fa-solid fa-globe"
+    }
+  ]
+}

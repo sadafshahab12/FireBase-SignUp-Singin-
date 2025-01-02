@@ -1,0 +1,15 @@
+{
+  "testimonials": [
+    {
+      "name": "Alex Johnson",
+      "feedback": "Code & Connect has transformed the way I engage with technology blogs. The community here is inspiring, and the resources are top-notch!",
+      "profilePicture": "./images/testi2.jpeg"
+    },
+    {
+      "name": "Maria Lopez",
+      "feedback": "I love the diversity of topics on this platform. From tech to lifestyle, there's something for everyone!",
+      "profilePicture": "./images/girl2.jpg"
+    }
+  
+  ]
+}
