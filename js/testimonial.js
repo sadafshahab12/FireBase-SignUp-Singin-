@@ -1,6 +1,6 @@
 const testimonialContainer = document.querySelector(".testimonial");
 
-fetch("testimonial.json")
+fetch("./jsons/testimonial.json")
   .then((response) => response.json())
   .then((data) => {
     const testimonial = data.testimonials;

@@ -5,6 +5,12 @@ import {
   createUserWithEmailAndPassword,
   signInWithEmailAndPassword,
 } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-auth.js";
+import dotenv from 'dotenv';
+
+// Load environment variables
+dotenv.config();
+
+console.log(process.env);
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 

@@ -1,6 +1,6 @@
 const callToActionContainer = document.querySelector(".callToAction");
 
-fetch("calltoaction.json")
+fetch("./jsons/calltoaction.json")
   .then((response) => response.json())
   .then((data) => {
     const callToAction = data.callToAction;

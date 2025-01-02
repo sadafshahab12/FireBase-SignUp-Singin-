@@ -1,6 +1,6 @@
 const offerContainer = document.querySelector(".offer");
 
-fetch("offer.json")
+fetch("./jsons/offer.json")
   .then((response) => response.json())
   .then((data) => {
     const offer = data.offer;

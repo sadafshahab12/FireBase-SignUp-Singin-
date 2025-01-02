@@ -1,5 +1,5 @@
 const blogPostContainer = document.querySelector(".blog-post");
-fetch("blog.json")
+fetch("./jsons/blog.json")
   .then((response) => response.json())
   .then((data) => {
     const posts = data.posts;
