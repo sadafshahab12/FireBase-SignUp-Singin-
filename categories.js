@@ -1,6 +1,6 @@
 const categoriesContainer = document.querySelector(".catagories");
 
-fetch("./jsons/catagories.json")
+fetch("catagories.json")
   .then((response) => response.json())
   .then((data) => {
     const categories = data.categories;
